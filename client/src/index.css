@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face{
+  font-family: sansregular;
+  src: url('C:\Users\AyushPersonal\Desktop\Full Stack Gmail Clone\client\src\fonts\ProductSans-Regular.ttf');
+
+}
+@font-face{
+  font-family: sansmedium;
+  src: url('C:\Users\AyushPersonal\Desktop\Full Stack Gmail Clone\client\src\fonts\ProductSans-Medium.ttf');
+
+}
+/* Hide scrollbars but still allow scrolling */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;            /* Chrome, Safari, and newer versions of Opera */
+}
