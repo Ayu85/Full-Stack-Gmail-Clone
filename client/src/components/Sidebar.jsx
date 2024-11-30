@@ -13,6 +13,10 @@ import {
   Frame,
   Image,
   ImageDownIcon,
+  DraftingCompass,
+  RecycleIcon,
+  LucideRecycle,
+  Trash,
 } from "lucide-react";
 import React from "react";
 
@@ -33,6 +37,14 @@ const Sidebar = ({ bar }) => {
     {
       name: "sent",
       icon: <Send className="w-5" />, // Added class for icon size
+    },
+    {
+        name:"drafts",
+        icon:<DraftingCompass className="w-5"/>
+    },
+    {
+        name:"bin",
+        icon:<Trash className="w-5"/>
     },
   ];
   return (
